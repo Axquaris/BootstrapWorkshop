@@ -1,6 +1,3 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    
 # Bootstrap Workshop
 
 This is a workshop for Hack Club showing how to use bootstrap to make a cool portfolio.
@@ -38,12 +35,9 @@ Make sure you allready know how to setup a github page and use the cloud9 editor
 #### Jumbotron
   
   First let's add a jumbotron, a nice looking element to act as a header:
-  <div class="container">
-    <div class="jumbotron">
-      <h1>My Portfolio</h1>
-      <p>Yay</p>
-    </div>
-  </div>
+  
+  ![Image Failed To Load :(](img/jumbotron.png "Jumbotron")
+
 
   ```html
   <div class="container">
@@ -57,22 +51,6 @@ Make sure you allready know how to setup a github page and use the cloud9 editor
   [documentation](http://getbootstrap.com/components/#jumbotron)
   
 #### Columns
-<div class="well">
-  <div class="row">
-    <div class="col-xs-4">
-      <h3>About Me</h3>
-      <p>bla bla bla</p>
-    </div>
-    <div class="col-xs-4">
-      <h3>My Projects</h3>
-      <p>bla bla bla</p>
-    </div>
-    <div class="col-xs-4">
-      <h3>How to Contact Me</h3>
-      <p>bla bla bla</p>
-    </div>
-  </div>
-</div>
 
   ```html
   <div class="row">
@@ -102,19 +80,7 @@ Make sure you allready know how to setup a github page and use the cloud9 editor
   See more bootstrap image styles [here](http://getbootstrap.com/css/#images)
 
 #### Navbar
-  <nav class="navbar navbar-default">
-    <div class="container-fluid" style="margin-bottom:0px">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">Portfolio</a>
-      </div>
-      <ul class="nav navbar-nav" style="margin-bottom:0px">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
-      </ul>
-    </div>
-  </nav>
+
   ```html
   <nav class="navbar navbar-default">
     <div class="container-fluid">
